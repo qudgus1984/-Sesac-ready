@@ -14,3 +14,12 @@ var rate: Double = 4.5
 var gender: Bool = true
 
 print("안녕하세요 \(nickname)입니다. 저는 \(age)살이고 이메일은 \(email) 입니다.")
+print(gender)
+print(rate)
+
+nickname = "Codyda"
+age = 22
+// email = "qudgus1984@daum.net" 상수 변경 불가
+gender = false
+rate = 3.5
+print("안녕하세요 \(nickname)입니다. 저는 \(age)살이고 이메일은 \(email) 입니다.")
