@@ -13,6 +13,9 @@
 		2FCB4A51284864160047F8E5 /* example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A50284864160047F8E5 /* example3.swift */; };
 		2FCB4A53284865710047F8E5 /* example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A52284865710047F8E5 /* example4.swift */; };
 		2FCB4A55284872140047F8E5 /* example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A54284872140047F8E5 /* example5.swift */; };
+		2FCB4A57284877C10047F8E5 /* example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A56284877C10047F8E5 /* example6.swift */; };
+		2FCB4A5928487AFC0047F8E5 /* example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A5828487AFC0047F8E5 /* example7.swift */; };
+		2FCB4A5B28487D520047F8E5 /* example8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A5A28487D520047F8E5 /* example8.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,9 @@
 		2FCB4A50284864160047F8E5 /* example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example3.swift; sourceTree = "<group>"; };
 		2FCB4A52284865710047F8E5 /* example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example4.swift; sourceTree = "<group>"; };
 		2FCB4A54284872140047F8E5 /* example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example5.swift; sourceTree = "<group>"; };
+		2FCB4A56284877C10047F8E5 /* example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example6.swift; sourceTree = "<group>"; };
+		2FCB4A5828487AFC0047F8E5 /* example7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example7.swift; sourceTree = "<group>"; };
+		2FCB4A5A28487D520047F8E5 /* example8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example8.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 				2FCB4A50284864160047F8E5 /* example3.swift */,
 				2FCB4A52284865710047F8E5 /* example4.swift */,
 				2FCB4A54284872140047F8E5 /* example5.swift */,
+				2FCB4A56284877C10047F8E5 /* example6.swift */,
+				2FCB4A5828487AFC0047F8E5 /* example7.swift */,
+				2FCB4A5A28487D520047F8E5 /* example8.swift */,
 			);
 			path = "[Sesac]ready";
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 				2FCB4A51284864160047F8E5 /* example3.swift in Sources */,
 				2FB9E18D284753CC0009C8B2 /* example2.swift in Sources */,
 				2FB9E184284730790009C8B2 /* main.swift in Sources */,
+				2FCB4A5928487AFC0047F8E5 /* example7.swift in Sources */,
 				2FCB4A53284865710047F8E5 /* example4.swift in Sources */,
+				2FCB4A5B28487D520047F8E5 /* example8.swift in Sources */,
+				2FCB4A57284877C10047F8E5 /* example6.swift in Sources */,
 				2FB9E18B284753350009C8B2 /* example1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
