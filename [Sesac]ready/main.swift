@@ -7,53 +7,20 @@
 
 import Foundation
 
+// 조건문 - 쿠폰 서비스
+// 0~4 : 손님, 5~9: 귀한분, 10~19: 더귀한분, 20~: 천생연분
 
-// 조건문 (if, switch)
-var gender = true
+let order = Int.random(in: 0...30)
 
-if gender {
-    print("저는 남자입니다.")
+print(order)
+
+// && = AND
+if order >= 0 && order < 5 {
+    print("5000원 쿠폰 투척!")
+} else if order >= 5 && order < 10 {
+    print("10000원 쿠폰 투척!")
+} else if order >= 10 && order < 20 {
+    print("20000원 쿠폰 투척!")
 } else {
-    print("저는 여자입니다.")
+    print("50000원 쿠폰 투척!")
 }
-
-print("저는 \(gender)입니다.")
-
-var weight = Int.random(in: 1...20)
-
-if weight > 15 {
-    print("무게가 \(weight)로,수화물요금 내야합니다.")
-} else {
-    print("무게가 \(weight)이므로 공짜")
-}
-
-// 부모님 동의가 필요한 회원가입
-
-var age = Int.random(in: 1...50)
-
-if age >= 14 {
-    print("나이가 \(age)이므로 부모님 동의 없이 가입할 수 있습니다.")
-} else {
-    print("나이가 \(age)이므로 부모님 동의가 필요합니다.")
-}
-
-// 영화 프로그램 추천
-var userSelect = "영화"
-
-if userSelect != "영화" {
-    print("오늘의 드라마 '어게인 마이 라이프'를 추천드립니다.")
-} else {
-    print("오늘의 드라마 '범죄도시2' 를 추천드립니다")
-}
-
-// 성적 장학금
-
-var gradePoint = 4.4
-
-if gradePoint > 4.3 {
-    print("장학금을 받을 수 있습니다.")
-} else {
-    print("장학금 못받아요 ㅠㅠ")
-}
-
-
