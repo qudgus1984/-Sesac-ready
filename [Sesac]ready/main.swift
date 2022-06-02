@@ -7,49 +7,12 @@
 
 import Foundation
 
-// 3. 거스름돈 계산기 (그리디 알고리즘)
-// 5000원 -> 4100원 > 900원 (500 1개, 100원 4개)
+// 영화 갯수, 러닝타임, 장르, 평점
 
-//var totalmoney: Int
-//totalmoney = Int(readLine()!)!
-//
-//var howMuch: Int
-//howMuch = Int(readLine()!)!
-//
-//var extrachar = totalmoney - howMuch
-//while extrachar > 0 {
-//    if extrachar >= 10000 {
-//        print("10000원 1장")
-//        extrachar = extrachar - 10000
-//    }
-//    else if extrachar >= 5000 {
-//        print("5000원 1장")
-//        extrachar = extrachar - 5000
-//    }
-//    else if extrachar >= 1000 {
-//        print("1000원 1장")
-//        extrachar = extrachar - 1000
-//    }
-//    else if extrachar >= 500 {
-//        print("500원 1개")
-//        extrachar = extrachar - 500
-//    }
-//    else if extrachar >= 100 {
-//        print("100원 1개")
-//        extrachar = extrachar - 100
-//    }
-//    else {
-//        break
-//    }
-//}
-//
+var movieCount = Int.random(in: 1...100)
+var movieRuntime = Int.random(in: 100...300)
+var genreList:Array = ["로맨스", "액션", "스릴러", "범죄"]
+var movieGenre = genreList.randomElement()!
+var movieRate = Int.random(in: 1...5)
 
-let money = 5000
-let product = 1300
-
-let change = money - product
-
-let rest500 = change / 500
-let rest100 = (change % 500) / 100
-
-print("거스름돈 \(change)원을, 500원 \(rest500)개, 100원 \(rest100)개로 거슬러주었습니다.")
+print("당신은 총 \(movieCount)개의 영화를 보았고, 총 러닝 타임은 \(movieRuntime)분 입니다. 좋아하는 장르는 \(movieGenre)이며 지금까지 총 영화 평점은 \(movieRate) 입니다.")
