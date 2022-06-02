@@ -7,25 +7,47 @@
 
 import Foundation
 
-// 6. 앨범 관리
 
-var album: [String] = ["All", "Main Album", "내가 본 드라마", "내가 본 영화"]
+// 조건문 (if, switch)
+var gender = true
 
-album.append("역대급 꿀잼")
-print(album)
+if gender == true {
+    print("저는 남자입니다.")
+} else {
+    print("저는 여자입니다.")
+}
 
-album.remove(at: 0)
-print(album)
-print(album[2])
+print("저는 \(gender)입니다.")
 
-album[2] = "소름 돋는 이야기"
+var weight = Int(readLine()!)!
 
-print(album)
-print(album.count)
+if weight > 15 {
+    print("수화물요금 내야합니다.")
+} else {
+    print("공짜")
+}
 
-album.removeAll()
-print(album.count)
+// 부모님 동의가 필요한 회원가입
 
-var sample: [[Int]] = [[1,2,3,4], [0,2,3,4,5]] // 2차원 배열
+var age = 50
 
-print(sample[0])
+if age >= 14 {
+    print("부모님 동의 없이 가입할 수 있습니다.")
+}
+
+// 영화 프로그램 추천
+var userSelect = "영화"
+
+if userSelect != "영화" {
+    print("오늘의 드라마 '어게인 마이 라이프'를 추천드립니다.")
+}
+
+// 성적 장학금
+
+var gradePoint = 4.4
+
+if gradePoint > 4.3 {
+    print("장학금을 받을 수 있습니다.")
+}
+
+
