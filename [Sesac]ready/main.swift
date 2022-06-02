@@ -67,3 +67,13 @@ print("총 투표수는 \(voteArray.count)이며, 명수는 \(voteMS)표, 준하
 
 
 // 응용 4. 국가별 영화 출력
+var movie: [String: [String]] = ["한국":["신과 함께", "명량", "괴물"],
+                                 "일본":["너의 이름은", "나는 어제의 너와 만난다"]]
+
+for country in movie {
+    if country.key == "한국" {
+        for movieName in country.value {
+            print(movieName)
+        }
+    }
+}
