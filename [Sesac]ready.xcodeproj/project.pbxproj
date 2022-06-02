@@ -18,6 +18,7 @@
 		2FCB4A5B28487D520047F8E5 /* example8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A5A28487D520047F8E5 /* example8.swift */; };
 		2FCB4A5D284886550047F8E5 /* example9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A5C284886550047F8E5 /* example9.swift */; };
 		2FCB4A612848889E0047F8E5 /* example10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A602848889E0047F8E5 /* example10.swift */; };
+		2FCB4A6328488EAF0047F8E5 /* example11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB4A6228488EAF0047F8E5 /* example11.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		2FCB4A5A28487D520047F8E5 /* example8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example8.swift; sourceTree = "<group>"; };
 		2FCB4A5C284886550047F8E5 /* example9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example9.swift; sourceTree = "<group>"; };
 		2FCB4A602848889E0047F8E5 /* example10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example10.swift; sourceTree = "<group>"; };
+		2FCB4A6228488EAF0047F8E5 /* example11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example11.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				2FCB4A5A28487D520047F8E5 /* example8.swift */,
 				2FCB4A5C284886550047F8E5 /* example9.swift */,
 				2FCB4A602848889E0047F8E5 /* example10.swift */,
+				2FCB4A6228488EAF0047F8E5 /* example11.swift */,
 			);
 			path = "[Sesac]ready";
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				2FCB4A51284864160047F8E5 /* example3.swift in Sources */,
 				2FB9E18D284753CC0009C8B2 /* example2.swift in Sources */,
 				2FB9E184284730790009C8B2 /* main.swift in Sources */,
+				2FCB4A6328488EAF0047F8E5 /* example11.swift in Sources */,
 				2FCB4A5928487AFC0047F8E5 /* example7.swift in Sources */,
 				2FCB4A53284865710047F8E5 /* example4.swift in Sources */,
 				2FCB4A5B28487D520047F8E5 /* example8.swift in Sources */,
